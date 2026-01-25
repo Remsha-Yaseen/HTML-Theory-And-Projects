@@ -9,7 +9,7 @@ This folder contains all the theoretical concepts and detailed notes regarding H
 ### 1. 🏗️ The Basics
 * **[Boilerplate.md](./Boilerplate.md)** – Understanding the skeleton of an HTML document.
 * **[Meta-Tags.md](./Meta-Tags.md)** – Explaining SEO and viewport settings.
-* **[Elements.md](./Elements.md)** – Notes on `<h1>` to `<h6>`, `<p>`, `<span>`, and `<div>`.
+* **[Elements.md](./Elements.md)** – Notes on `<h1>` to `<h6>`, `<p>`, <section>,`<div>` and so on.
 
 ### 2. 🖼️ Multimedia & Links
 * **[Links-and-Anchors.md](./Links-and-Anchors.md)** – How navigation works.
