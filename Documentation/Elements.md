@@ -1,23 +1,114 @@
 In HTML, text formatting is handled by a mix of semantic elements (which tell the browser what the text is) and structural elements (which define how the content is organized).
 
 # **Header Tags:** h1 to h6
-These tags define the hierarchy and importance of headings on a page.
-* **Usage:** **(h1)** is the most important (main title), and **(h6)** is the least important (sub-sub-sub-heading).
-* **SEO & Accessibility:** Screen readers and search engines use these to understand the structure of your content. You should ideally only have one (h1) per page.
-* **Behavior:** They are block-level elements (they start on a new line and take up the full width).
+There are six heading elements in HTML. The h1 through h6 heading elements are used to signify the importance of content below them. The lower the number, the higher the importance, so h2 elements have less importance than h1 elements.
 
-# The Paragraph Tag: <p>
-The primary tag for blocks of text.
-* **Usage:** Used to wrap sentences and paragraphs.
-* **Behavior:** Like headers, (p) is a block-level element. Browsers automatically add a small amount of space (margin) above and below a paragraph to separate it from other content.
+<html>
+  <h1>most important heading element</h1>
+<h2>second most important heading element</h2>
+<h3>third most important heading element</h3>
+<h4>fourth most important heading element</h4>
+<h5>fifth most important heading element</h5>
+<h6>least important heading element</h6>
+</html>
 
- # The Span Tag: <span>
- A generic inline container used for styling specific parts of a text.
-**Usage:** Used when you want to change the color, font, or weight of just one word or a phrase inside a paragraph without breaking the line.
-**Behavior:** It is an inline element; it does not start on a new line and only takes up as much width as necessary.
-_Example:_ <p>This is <span style="color:red;">important</span> text.</p>
 
-# The Division Tag: <div>
-The most common container in web development, used to group other elements together.
-**Usage:** It has no semantic meaning (it doesn't tell the browser if the content is a header or a paragraph). It is used strictly for styling or layout purposes (e.g., creating a sidebar or a wrapper).
-**Behavior:** It is a block-level element.
+# **The Paragraph Tag: <p>**
+This is used for paragraphs on a web page.
+
+  <p>This is a paragraph element.</p>
+
+# **Body Element: <body>**
+This element is used to represent the content for the HTML document.
+<body>
+  <h1>CatPhotoApp</h1>
+  <p>This is a paragraph element.</p>
+</body>
+
+# **Section Elements: **
+This element is used to divide up content into smaller sections.
+<section>
+  <h2>About Me</h2>
+  <p>Hi, I am Remsha Yaseen and I am learning web development.</p>
+</section>
+
+# **The Division Tag: <div>**
+This element is a generic HTML element that does not hold any semantic meaning. It is used as a generic container to hold other HTML elements.
+<div>
+  <h1>I am a heading</h1>
+  <p>I am a paragraph</p>
+</div>
+
+# **Img Elements: **
+The img element is used to add images to the web page. The src attribute is used to specify the location for that image. For image elements, it's good practice to include another attribute called the alt attribute. Here's an example of an img element with the src and alt attributes:
+<img src="path" alt="Description.">
+
+# **Anchor (a) Elements: **
+These elements are used to apply links to a web page.
+The href attribute is used to specify where the link should go when the user clicks on it.
+<a href="path">text</a>
+
+# **List Elements:**
+To create a bulleted list of items you should use the **ul** element with one or more **li** elements nested inside like this:
+<ul>
+  <li>catnip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
+
+To create an ordered list of items you should use the ol element:
+<ol>
+  <li>flea treatment</li>
+  <li>thunder</li>
+  <li>other cats</li>
+</ol>
+
+# **Emphasis (em) Element:**
+This is used to place emphasis on a piece of text.
+<p>Cats <em>love</em> lasagna.</p>
+
+# **Strong Importance (strong) Element:**
+This element is used to place strong emphasis on text to indicate a sense of urgency and seriousness.
+<p>
+  <strong>Important:</strong> Before proceeding, make sure to wear your safety goggles.
+</p>
+
+# **Figure and Figcaption Elements:**
+The figure element is used to group content like images and diagrams. The figcaption element is used to represent a caption for that content inside the figure element.
+
+<figure>
+  <img src="path" alt="description">
+  <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+</figure>
+
+# **Main Element: **
+This element is used to represent the main content for a web page.
+<main>
+ content
+</main>
+
+# **Footer Element:**
+This element is placed at the bottom of the HTML document and usually contains copyright information and other important page links.
+<footer>
+  <p>
+    No Copyright - <a href="path">text</a>
+  </p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
