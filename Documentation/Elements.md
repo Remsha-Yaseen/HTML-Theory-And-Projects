@@ -4,12 +4,12 @@ In HTML, text formatting is handled by a mix of semantic elements (which tell th
 There are six heading elements in HTML. The h1 through h6 heading elements are used to signify the importance of content below them. The lower the number, the higher the importance, so h2 elements have less importance than h1 elements.
 
 <html>
-  <h1>most important heading element</h1>
-<h2>second most important heading element</h2>
-<h3>third most important heading element</h3>
-<h4>fourth most important heading element</h4>
-<h5>fifth most important heading element</h5>
-<h6>least important heading element</h6>
+  <h1>h1 most important heading element</h1>
+<h2>h2 second most important heading element</h2>
+<h3>h3 third most important heading element</h3>
+<h4>h4 fourth most important heading element</h4>
+<h5>h5 fifth most important heading element</h5>
+<h6>h6 least important heading element</h6>
 </html>
 
 
