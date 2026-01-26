@@ -46,7 +46,7 @@ The img element is used to add images to the web page. The src attribute is 
 # **Anchor (a) Elements:**
 These elements are used to apply links to a web page.
 The href attribute is used to specify where the link should go when the user clicks on it.
-<a href="path">text</a>
+<a href="path">description</a>
 
 # **List Elements:**
 To create a bulleted list of items you should use the **ul** element with one or more **li** elements nested inside like this:
@@ -91,7 +91,7 @@ This element is used to represent the main content for a web page.
 This element is placed at the bottom of the HTML document and usually contains copyright information and other important page links.
 <footer>
   <p>
-    No Copyright - <a href="path">text</a>
+    No Copyright - <a href="path">description</a>
   </p>
 </footer>
 
