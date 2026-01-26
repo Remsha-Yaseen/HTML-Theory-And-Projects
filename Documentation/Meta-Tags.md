@@ -14,12 +14,14 @@ width=device-width: Sets the width of the page to follow the screen-width of the
 
 initial-scale=1.0: Sets the initial zoom level when the page is first loaded.
 
+# **SEO:**
+Search Engine Optimization is a practice that optimizes web pages so they become more visible and rank higher on search engines.
+
 📈 SEO Meta Tags
 These tags tell search engines what your site is about so they can show it to the right people.
 
 1. Description
 This text often appears in Google search results.
-
 
 <meta name="description" content="A beginner's guide to learning HTML and building web projects.">
 
