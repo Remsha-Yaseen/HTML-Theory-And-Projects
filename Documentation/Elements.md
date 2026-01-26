@@ -25,7 +25,7 @@ This element is used to represent the content for the HTML document.
   <p>This is a paragraph element.</p>
 </body>
 
-# **Section Elements: **
+# **Section Elements:**
 This element is used to divide up content into smaller sections.
 <section>
   <h2>About Me</h2>
@@ -39,11 +39,11 @@ This element is a generic HTML element that does not hold any semantic meaning. 
   <p>I am a paragraph</p>
 </div>
 
-# **Img Elements: **
+# **Img Elements:**
 The img element is used to add images to the web page. The src attribute is used to specify the location for that image. For image elements, it's good practice to include another attribute called the alt attribute. Here's an example of an img element with the src and alt attributes:
 <img src="path" alt="Description.">
 
-# **Anchor (a) Elements: **
+# **Anchor (a) Elements:**
 These elements are used to apply links to a web page.
 The href attribute is used to specify where the link should go when the user clicks on it.
 <a href="path">text</a>
@@ -81,7 +81,7 @@ The figure element is used to group content like images and diagrams. The fig
   <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
 </figure>
 
-# **Main Element: **
+# **Main Element:**
 This element is used to represent the main content for a web page.
 <main>
  content
