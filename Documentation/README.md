@@ -12,7 +12,7 @@ This folder contains all the theoretical concepts and detailed notes regarding H
 * **[Elements.md](./Elements.md)** – Notes on `<h1>` to `<h6>`, `<p>`, <section>,`<div>` and so on.
 
 ### 2. 🖼️ Multimedia & Links
-* **[Links-and-Anchors.md](./Links-and-Anchors.md)** – How navigation works.
+* **[Special Characters & Linking](./Special Characters & Linking.md)** – How navigation works.
 * **[Media-Elements.md](./Media-Elements.md)** – Detailed notes on `<img>`, `<audio>`, and `<video>`.
 * **[iFrames.md](./iFrames.md)** – Embedding external content.
 
