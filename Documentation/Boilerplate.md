@@ -20,8 +20,10 @@ Here is the structure of a standard HTML5 boilerplate:
     <p>This is where the content goes.</p>
 </body>
 </html>
+```
 
 🔍 Key Elements Explained
+```html
 1. <!DOCTYPE html>
 This isn't actually an HTML tag; it's a declaration. It tells the browser that this document is using HTML5, the latest version of the language.
 
@@ -39,3 +41,4 @@ The head contains metadata—information about the page that doesn't show up on 
 
 4. <body> (The Heart)
 Everything inside this tag is what the user actually sees on the website (text, images, buttons).
+```
