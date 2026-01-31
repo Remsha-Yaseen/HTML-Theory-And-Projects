@@ -28,7 +28,7 @@ Sometimes a cell needs to take up more than one spot. We use "Spanning" for this
 * `colspan:` Stretches a cell horizontally across multiple columns.
 * `rowspan:` Stretches a cell vertically across multiple rows.
 
-💻 **## Code Example:**
+## 💻 **Code Example:**
 
 ```html
 <table>
