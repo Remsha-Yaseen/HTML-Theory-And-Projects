@@ -5,6 +5,7 @@ Tables allow you to arrange data—like text, images, or links—into rows and c
 ----
 
 **1. The Core Anatomy of a Table**
+
 An HTML table is built using a specific hierarchy of tags. Think of it like a container (the table) holding rows, which then hold individual cells.
 
 * `<table>:` The main container for all table content.
@@ -13,6 +14,7 @@ An HTML table is built using a specific hierarchy of tags. Think of it like a co
 * `<td>` **(Table Data):** The standard cell containing the actual information.
 
 **2. Structural Tags (thead, tbody, tfoot)**
+
 For more professional and accessible tables, we divide them into three semantic sections:
 
 * `<thead>:` Wraps the header rows.
@@ -20,6 +22,7 @@ For more professional and accessible tables, we divide them into three semantic 
 * `<tfoot>:` Wraps the summary or footer row (e.g., a "Total" line).
 
  **3. Advanced Attributes: Spanning**
+ 
 Sometimes a cell needs to take up more than one spot. We use "Spanning" for this:
 
 * `colspan:` Stretches a cell horizontally across multiple columns.
