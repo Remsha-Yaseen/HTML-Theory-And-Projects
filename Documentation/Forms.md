@@ -47,3 +47,16 @@ Validation prevents "bad data" from being submitted. You can enforce rules direc
 | pattern | Uses Regular Expressions (Regex) to enforce specific formats. | `<input type="tel" pattern="[0-9]{3}-[0-9]{3}">` |
 
 
+## 💻 Code Example: Movie Review Form
+
+```html
+<form>
+  <label for="movie-title">Movie Title:</label>
+  <input type="text" id="movie-title" required>
+
+  <label for="rating">Rating (1-5):</label>
+  <input type="number" id="rating" min="1" max="5">
+
+  <button type="submit">Submit Review</button>
+</form>
+```
