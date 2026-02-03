@@ -27,7 +27,7 @@ During this project, I practiced:
 
 ## 🚀 How to Run the Project
 1. Download the files or clone the repository.
-2. Open the `index.html` file in any modern web browser.
+2. Open the `.html` file in any modern web browser.
 
 ---
 [⬅️ Back to Main Documentation](../README.md)
