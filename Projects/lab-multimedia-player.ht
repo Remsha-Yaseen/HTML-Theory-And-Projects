@@ -1,0 +1,50 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+<h1>Multimedia Player</h1>
+
+    <section>
+        <h2>Sailing Away</h2>
+        <audio controls aria-label="Audio player for Sailing Away">
+            <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>What is the .map() Method?</h2>
+        <video controls width="640" aria-label="Video player explaining the JavaScript map method">
+            <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+            <track 
+                src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.vtt" 
+                kind="subtitles" 
+                srclang="en" 
+                label="English Subtitles">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <section>
+        <h2>Video Transcript</h2>
+        <p>
+            This video explains how the .map() method works in JavaScript. 
+            It walks through the process of iterating over an array and 
+            creating a new array by applying a function to every element. 
+            The tutorial covers syntax, use cases, and provides a clear 
+            example of mapping through an array of numbers to double their values.
+        </p>
+    </section>
+</body>
+
+</html>
+
+** end of index.html **
+
